@@ -10,7 +10,7 @@ before_install:
   - sudo apt-get install apt-transport-https
   - sudo apt-get update
   - sudo apt-get install -y dotnet-sdk-2.1
-  - sudo apt-get install -y mono-develop
+  - sudo apt-get install -y mono-devel
 script:
   - dotnet restore
   - cd src
