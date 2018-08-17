@@ -15,7 +15,7 @@ module.exports = webpackMerge.smartStrategy({
     devtool: 'source-map',
     output: {
         path: helpers.root('dist'),
-        publicPath: '/',
+        publicPath: '',
         filename: '[name].js'
     },
 
